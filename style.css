@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    color: yellow;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{ 
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+nav .logo{
+    font-weight: bold;
+    font-size: 5rem;
+}
